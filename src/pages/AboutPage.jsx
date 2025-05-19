@@ -1,9 +1,9 @@
 import { FiCheck, FiTarget, FiUsers, FiTrendingUp } from 'react-icons/fi'
 import SectionHeading from '../components/ui/SectionHeading'
 import TeamCard from '../components/ui/TeamCard'
-// import img1 from '../assets/team/ishu.jpg'
-// import img2 from '../assets/team/ankit.png'
-// import img3 from '../assets/team/sarabjotsingh.png'
+import Img1 from '../../public/team/ishu.jpg'
+import Img2 from '../../public/team/Ankit.png'
+import Img3 from '../../public/team/sarabjotsingh.png'
 
 const AboutPage = () => {
   return (
@@ -138,21 +138,21 @@ const AboutPage = () => {
             <TeamCard
               name="Ishu Pachouri"
               position="Managing Director"
-              image="/src/assets/team/ishu.jpg"
+              image={Img1}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Ankit Pachouri"
               position="Managing Director"
-              image="/src/assets/team/ankit.png"
+              image={Img2}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Sarabjot Singh"
               position="Founder & CEO"
-              image="/src/assets/team/sarabjotsingh.png"
+              image={Img3}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
@@ -163,28 +163,28 @@ const AboutPage = () => {
               linkedin="#"
               twitter="#"
             />
-              <TeamCard
+            <TeamCard
               name="XYZ"
               position="Human Resource Manager"
               image="https://placehold.co/288x300"
               linkedin="#"
               twitter="#"
             />
-              <TeamCard
+            <TeamCard
               name="XYZ"
               position="Human Resource Manager"
               image="https://placehold.co/288x300"
               linkedin="#"
               twitter="#"
             />
-              <TeamCard
+            <TeamCard
               name="XYZ"
               position="Human Resource Manager"
               image="https://placehold.co/288x300"
               linkedin="#"
               twitter="#"
             />
-              <TeamCard
+            <TeamCard
               name="XYZ"
               position="Human Resource Manager"
               image="https://placehold.co/288x300"
