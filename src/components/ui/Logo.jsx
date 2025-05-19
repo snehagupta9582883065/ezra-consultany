@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const Logo = ({ variant = 'dark' }) => {
-  const textColor = variant === 'dark' ? 'text-primary' : 'text-white'
+  const textColor = variant === 'dark' ? 'text-[#c9a96e]' : 'text-white'
   const accentColor = 'text-secondary'
 
   return (

@@ -16,35 +16,35 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="container flex items-center justify-between py-4">
+      <div className="container-fluid flex items-center justify-between py-4 bg-[#0a2540] px-4 text-[#c9a96e]">
         <Link to="/" className="z-10">
-          <Logo />
+          <Logo  />
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden space-x-8 md:flex">
           <NavLink to="/" className={({ isActive }) => 
-            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-gray-700 hover:text-secondary'}`
+            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-white hover:text-secondary'}`
           }>
             Home
           </NavLink>
           <NavLink to="/about" className={({ isActive }) => 
-            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-gray-700 hover:text-secondary'}`
+            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-white hover:text-secondary'}`
           }>
             About
           </NavLink>
           <NavLink to="/services" className={({ isActive }) => 
-            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-gray-700 hover:text-secondary'}`
+            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-white hover:text-secondary'}`
           }>
             Services
           </NavLink>
           <NavLink to="/cases" className={({ isActive }) => 
-            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-gray-700 hover:text-secondary'}`
+            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-white hover:text-secondary'}`
           }>
             Case Studies
           </NavLink>
           <NavLink to="/contact" className={({ isActive }) => 
-            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-gray-700 hover:text-secondary'}`
+            `text-sm font-medium transition-colors duration-300 ${isActive ? 'text-secondary' : 'text-white hover:text-secondary'}`
           }>
             Contact
           </NavLink>

@@ -78,19 +78,19 @@ const Footer = () => {
               <li className="flex">
                 <FiMapPin className="mr-3 text-secondary" size={20} />
                 <span className="text-gray-300">
-                  123 Finance Street, Business District, New York, NY 10001
+                   Jaypee Aman, Sector 151, Noida, Uttar Pradesh 201310
                 </span>
               </li>
               <li className="flex">
                 <FiPhone className="mr-3 text-secondary" size={20} />
-                <a href="tel:+15551234567" className="text-gray-300 hover:text-secondary transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+919758950611" className="text-gray-300 hover:text-secondary transition-colors">
+                  +91 9758950611
                 </a>
               </li>
               <li className="flex">
                 <FiMail className="mr-3 text-secondary" size={20} />
-                <a href="mailto:info@ezraconsultancy.com" className="text-gray-300 hover:text-secondary transition-colors">
-                  info@ezraconsultancy.com
+                <a href="mailto:ishupachouri816@gmail.com" className="text-gray-300 hover:text-secondary transition-colors">
+                  ishupachouri816@gmail.com
                 </a>
               </li>
             </ul>

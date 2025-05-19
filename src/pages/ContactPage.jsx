@@ -22,12 +22,12 @@ const ContactPage = () => {
         <div className="container">
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
             <div data-aos="fade-right">
-              <SectionHeading 
-                title="Get In Touch" 
+              <SectionHeading
+                title="Get In Touch"
                 subtitle="We're here to answer your questions and discuss how we can help your business"
                 center={false}
               />
-              
+
               <div className="mb-8 space-y-6">
                 <div className="flex">
                   <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mr-4 rounded-full bg-primary-light">
@@ -36,12 +36,11 @@ const ContactPage = () => {
                   <div>
                     <h3 className="mb-2 text-lg font-semibold text-primary">Our Office</h3>
                     <p className="text-gray-600">
-                      123 Finance Street, Business District<br />
-                      New York, NY 10001, USA
+                      Jaypee Aman, Sector 151, Noida, <br /> Uttar Pradesh 201310
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex">
                   <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mr-4 rounded-full bg-primary-light">
                     <FiPhone className="text-white" size={20} />
@@ -49,13 +48,13 @@ const ContactPage = () => {
                   <div>
                     <h3 className="mb-2 text-lg font-semibold text-primary">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+15551234567" className="transition-colors hover:text-secondary">
-                        +1 (555) 123-4567
+                      <a href="tel:+919758950611" className="transition-colors hover:text-secondary">
+                        +91 9758950611
                       </a>
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex">
                   <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mr-4 rounded-full bg-primary-light">
                     <FiMail className="text-white" size={20} />
@@ -63,13 +62,13 @@ const ContactPage = () => {
                   <div>
                     <h3 className="mb-2 text-lg font-semibold text-primary">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@ezraconsultancy.com" className="transition-colors hover:text-secondary">
-                        info@ezraconsultancy.com
+                      <a href="mailto:ishupachouri816@gmail.com" className="transition-colors hover:text-secondary">
+                        ishupachouri816@gmail.com
                       </a>
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex">
                   <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 mr-4 rounded-full bg-primary-light">
                     <FiClock className="text-white" size={20} />
@@ -83,7 +82,7 @@ const ContactPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="p-6 bg-gray-100 rounded-lg">
                 <h3 className="mb-4 text-lg font-semibold text-primary">Global Offices</h3>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -106,7 +105,7 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-            
+
             <div data-aos="fade-left">
               <div className="p-8 bg-white rounded-lg shadow-medium">
                 <h2 className="mb-6 text-2xl font-bold text-primary">Send Us a Message</h2>
@@ -119,21 +118,27 @@ const ContactPage = () => {
 
       {/* Map Section */}
       <section className="py-16 bg-gray-100">
-        <div className="container">
-          <div className="overflow-hidden rounded-lg shadow-medium">
-            {/* Placeholder for map - in a real implementation, this would be replaced with an actual map component */}
-            <div className="flex items-center justify-center h-96 bg-gray-300">
-              <p className="text-gray-600">Map placeholder - Google Maps would be integrated here</p>
-            </div>
+        <div className="container mx-auto px-4">
+          <div className="overflow-hidden rounded-lg shadow-md">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.220415660563!2d77.4635149752818!3d28.442771275768827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc30041f23059%3A0xa314e0ff60f7ee79!2sN19%20Sector%20151%20Noida!5e0!3m2!1sen!2sin!4v1747636234248!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
 
+
       {/* FAQ Section */}
       <section className="section">
         <div className="container">
-          <SectionHeading 
-            title="Frequently Asked Questions" 
+          <SectionHeading
+            title="Frequently Asked Questions"
             subtitle="Find answers to common questions about our services"
             center={true}
           />
@@ -176,8 +181,8 @@ const ContactPage = () => {
             <p className="mb-8 text-xl text-gray-300">
               Our team of experts is waiting to help you achieve your financial goals and take your business to the next level.
             </p>
-            <a href="tel:+15551234567" className="btn btn-accent">
-              Call Us Now: +1 (555) 123-4567
+            <a href="tel:+919758950611" className="btn btn-accent">
+              Call Us Now: +91 9758950611
             </a>
           </div>
         </div>

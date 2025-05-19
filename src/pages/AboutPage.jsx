@@ -1,6 +1,9 @@
 import { FiCheck, FiTarget, FiUsers, FiTrendingUp } from 'react-icons/fi'
 import SectionHeading from '../components/ui/SectionHeading'
 import TeamCard from '../components/ui/TeamCard'
+import img1 from '../assets/team/ishu.jpg'
+import img2 from '../assets/team/ankit.png'
+import img3 from '../assets/team/sarabjotsingh.png'
 
 const AboutPage = () => {
   return (
@@ -22,15 +25,15 @@ const AboutPage = () => {
         <div className="container">
           <div className="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
             <div data-aos="fade-right">
-              <img 
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1600" 
-                alt="Our Story" 
+              <img
+                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                alt="Our Story"
                 className="w-full rounded-lg shadow-medium"
               />
             </div>
             <div data-aos="fade-left">
-              <SectionHeading 
-                title="Our Story" 
+              <SectionHeading
+                title="Our Story"
                 subtitle=""
                 center={false}
               />
@@ -77,8 +80,8 @@ const AboutPage = () => {
       {/* Values Section */}
       <section className="section">
         <div className="container">
-          <SectionHeading 
-            title="Our Core Values" 
+          <SectionHeading
+            title="Our Core Values"
             subtitle="The principles that guide everything we do"
             center={true}
           />
@@ -126,67 +129,67 @@ const AboutPage = () => {
       {/* Leadership Team Section */}
       <section id="team" className="section bg-gray-100">
         <div className="container">
-          <SectionHeading 
-            title="Our Leadership Team" 
+          <SectionHeading
+            title="Our Leadership Team"
             subtitle="Meet the experts guiding our company to success"
             center={true}
           />
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <TeamCard 
-              name="David Mitchell"
-              position="Founder & CEO"
-              image="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              linkedin="https://linkedin.com"
-              twitter="https://twitter.com"
-            />
-            <TeamCard 
-              name="Jennifer Park"
+            <TeamCard
+              name="Ishu Pachouri"
               position="Managing Director"
-              image="https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              image={img1}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
-            <TeamCard 
-              name="Robert Chen"
-              position="Head of Investment Banking"
-              image="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            <TeamCard
+              name="Ankit Pachouri"
+              position="Managing Director"
+              image={img2}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
-            <TeamCard 
-              name="Sophia Rodriguez"
-              position="Chief Strategy Officer"
-              image="https://images.pexels.com/photos/3767392/pexels-photo-3767392.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            <TeamCard
+              name="Sarabjot Singh"
+              position="Founder & CEO"
+              image={img3}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
-            <TeamCard 
-              name="Andrew Thompson"
-              position="Financial Restructuring Lead"
-              image="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              linkedin="https://linkedin.com"
-              twitter="https://twitter.com"
+            <TeamCard
+              name="XYZ"
+              position="Human Resource Manager"
+              image="https://placehold.co/288x300"
+              linkedin="#"
+              twitter="#"
             />
-            <TeamCard 
-              name="Emily Wang"
-              position="Head of M&A Advisory"
-              image="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              linkedin="https://linkedin.com"
-              twitter="https://twitter.com"
+              <TeamCard
+              name="XYZ"
+              position="Human Resource Manager"
+              image="https://placehold.co/288x300"
+              linkedin="#"
+              twitter="#"
             />
-            <TeamCard 
-              name="Marcus Johnson"
-              position="Director of Strategic Partnerships"
-              image="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              linkedin="https://linkedin.com"
-              twitter="https://twitter.com"
+              <TeamCard
+              name="XYZ"
+              position="Human Resource Manager"
+              image="https://placehold.co/288x300"
+              linkedin="#"
+              twitter="#"
             />
-            <TeamCard 
-              name="Lisa Chen"
-              position="Chief Operations Officer"
-              image="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              linkedin="https://linkedin.com"
-              twitter="https://twitter.com"
+              <TeamCard
+              name="XYZ"
+              position="Human Resource Manager"
+              image="https://placehold.co/288x300"
+              linkedin="#"
+              twitter="#"
+            />
+              <TeamCard
+              name="XYZ"
+              position="Human Resource Manager"
+              image="https://placehold.co/288x300"
+              linkedin="#"
+              twitter="#"
             />
           </div>
         </div>
@@ -195,8 +198,8 @@ const AboutPage = () => {
       {/* Global Presence */}
       <section className="section">
         <div className="container">
-          <SectionHeading 
-            title="Our Global Presence" 
+          <SectionHeading
+            title="Our Global Presence"
             subtitle="Serving clients around the world from our strategic locations"
             center={true}
           />
@@ -205,7 +208,7 @@ const AboutPage = () => {
               <h3 className="mb-4 text-xl font-semibold text-primary">New York</h3>
               <p className="mb-2 text-gray-600">123 Finance Street</p>
               <p className="mb-2 text-gray-600">New York, NY 10001</p>
-              <p className="text-gray-600">+1 (555) 123-4567</p>
+              <p className="text-gray-600">+91 9758950611</p>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg shadow-soft" data-aos="fade-up" data-aos-delay="100">
               <h3 className="mb-4 text-xl font-semibold text-primary">London</h3>
@@ -225,7 +228,7 @@ const AboutPage = () => {
 
       {/* CTA Section */}
       <section className="relative py-20 text-white bg-primary">
-        <div 
+        <div
           className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: "url('https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1600')",

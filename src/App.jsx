@@ -27,8 +27,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
       <main>
+      <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

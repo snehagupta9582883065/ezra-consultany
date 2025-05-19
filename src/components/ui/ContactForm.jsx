@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import emailjs from 'emailjs-com'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -23,29 +24,36 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false)
-      setSubmitResult({
-        success: true,
-        message: 'Thank you for your message. Our team will contact you shortly!'
+
+    // Replace with your EmailJS credentials
+    const SERVICE_ID = 'service_fw6moqt'
+    const TEMPLATE_ID = 'template_p8vahyl'
+    const PUBLIC_KEY = 'inh4dcUSuj3ndBnGX'
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY)
+      .then(() => {
+        setSubmitResult({
+          success: true,
+          message: 'Thank you for your message. We will contact you soon.',
+        })
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          company: '',
+          message: '',
+        })
+        setIsSubmitting(false)
+        setTimeout(() => setSubmitResult(null), 5000)
       })
-      
-      // Clear form after successful submission
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        message: '',
+      .catch((error) => {
+        console.error('EmailJS Error:', error)
+        setSubmitResult({
+          success: false,
+          message: 'Something went wrong. Please try again later.',
+        })
+        setIsSubmitting(false)
       })
-      
-      // Clear success message after 5 seconds
-      setTimeout(() => {
-        setSubmitResult(null)
-      }, 5000)
-    }, 1500)
   }
 
   return (
@@ -82,7 +90,7 @@ const ContactForm = () => {
           />
         </div>
       </div>
-      
+
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         <div>
           <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-700">
@@ -95,7 +103,7 @@ const ContactForm = () => {
             value={formData.phone}
             onChange={handleChange}
             className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent"
-            placeholder="+1 (555) 123-4567"
+            placeholder="+91 9758950611"
           />
         </div>
         <div>
@@ -113,7 +121,7 @@ const ContactForm = () => {
           />
         </div>
       </div>
-      
+
       <div>
         <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-700">
           Message *
@@ -129,13 +137,13 @@ const ContactForm = () => {
           placeholder="Please provide details about your inquiry..."
         ></textarea>
       </div>
-      
+
       {submitResult && (
         <div className={`p-4 rounded-md ${submitResult.success ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}>
           {submitResult.message}
         </div>
       )}
-      
+
       <div>
         <button
           type="submit"
