@@ -263,21 +263,21 @@ const HomePage = () => {
             <TeamCard
               name="Ishu Pachouri"
               position="Managing Director"
-              image="/src/assets/team/ishu.jpg"
+              image="/teams/ishu.jpg"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Ankit Pachouri"
               position="Managing Director"
-              image="/src/assets/team/ankit.png"
+              image="/teams/ankit.png"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Sarabjot Singh"
               position="Founder & CEO"
-              image=".src/assets/team/sarabjotsingh.png"
+              image="/teams/sarabjotsingh.png"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
