@@ -262,14 +262,14 @@ const HomePage = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
             <TeamCard
               name="Ishu Pachouri"
-              position="Managing Director"
+              position="Adviser"
               image={Img1}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Ankit Pachouri"
-              position="Managing Director"
+              position="Designated Partner"
               image={Img2}
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
