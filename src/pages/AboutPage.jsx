@@ -1,9 +1,9 @@
 import { FiCheck, FiTarget, FiUsers, FiTrendingUp } from 'react-icons/fi'
 import SectionHeading from '../components/ui/SectionHeading'
 import TeamCard from '../components/ui/TeamCard'
-import img1 from '../assets/team/ishu.jpg'
-import img2 from '../assets/team/ankit.png'
-import img3 from '../assets/team/sarabjotsingh.png'
+// import img1 from '../assets/team/ishu.jpg'
+// import img2 from '../assets/team/ankit.png'
+// import img3 from '../assets/team/sarabjotsingh.png'
 
 const AboutPage = () => {
   return (
@@ -138,21 +138,21 @@ const AboutPage = () => {
             <TeamCard
               name="Ishu Pachouri"
               position="Managing Director"
-              image={img1}
+              image="/src/assets/team/ishu.jpg"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Ankit Pachouri"
               position="Managing Director"
-              image={img2}
+              image="/src/assets/team/ankit.png"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Sarabjot Singh"
               position="Founder & CEO"
-              image={img3}
+              image="/src/assets/team/sarabjotsingh.png"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />

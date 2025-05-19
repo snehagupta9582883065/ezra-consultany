@@ -5,9 +5,9 @@ import ServiceCard from '../components/ui/ServiceCard'
 import TestimonialCard from '../components/ui/TestimonialCard'
 import CaseStudyCard from '../components/ui/CaseStudyCard'
 import TeamCard from '../components/ui/TeamCard'
-import img1 from '../assets/team/ishu.jpg'
-import img2 from '../assets/team/ankit.png'
-import img3 from '../assets/team/sarabjotsingh.png'
+// import img1 from '../assets/team/ishu.jpg'
+// import img2 from '../assets/team/ankit.png'
+// import img3 from '../assets/team/sarabjotsingh.png'
 
 const HomePage = () => {
   return (
@@ -263,21 +263,21 @@ const HomePage = () => {
             <TeamCard
               name="Ishu Pachouri"
               position="Managing Director"
-              image={img1}
+              image="/src/assets/team/ishu.jpg"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Ankit Pachouri"
               position="Managing Director"
-              image={img2}
+              image="/src/assets/team/ankit.png"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
             <TeamCard
               name="Sarabjot Singh"
               position="Founder & CEO"
-              image={img3}
+              image=".src/assets/team/sarabjotsingh.png"
               linkedin="https://linkedin.com"
               twitter="https://twitter.com"
             />
