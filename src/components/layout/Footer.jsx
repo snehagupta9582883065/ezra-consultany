@@ -78,7 +78,7 @@ const Footer = () => {
               <li className="flex">
                 <FiMapPin className="mr-3 text-secondary" size={20} />
                 <span className="text-gray-300">
-                   Jaypee Aman, Sector 151, Noida, Uttar Pradesh 201310
+                   K-33, First Floor, Jangpura Extension, South Delhi, New Delhi - 110014
                 </span>
               </li>
               <li className="flex">
@@ -89,8 +89,8 @@ const Footer = () => {
               </li>
               <li className="flex">
                 <FiMail className="mr-3 text-secondary" size={20} />
-                <a href="mailto:ishupachouri816@gmail.com" className="text-gray-300 hover:text-secondary transition-colors">
-                  ishupachouri816@gmail.com
+                <a href="mailto:ankit@ezraconsultancy.in" className="text-gray-300 hover:text-secondary transition-colors">
+                  ankit@ezraconsultancy.in
                 </a>
               </li>
             </ul>

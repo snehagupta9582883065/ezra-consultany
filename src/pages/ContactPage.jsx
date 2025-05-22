@@ -36,7 +36,7 @@ const ContactPage = () => {
                   <div>
                     <h3 className="mb-2 text-lg font-semibold text-primary">Our Office</h3>
                     <p className="text-gray-600">
-                      Jaypee Aman, Sector 151, Noida, <br /> Uttar Pradesh 201310
+                      K-33, First Floor, Jangpura Extension, <br /> South Delhi, New Delhi - 110014
                     </p>
                   </div>
                 </div>
@@ -62,8 +62,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="mb-2 text-lg font-semibold text-primary">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:ishupachouri816@gmail.com" className="transition-colors hover:text-secondary">
-                        ishupachouri816@gmail.com
+                      <a href="mailto:ankit@ezraconsultancy.in" className="transition-colors hover:text-secondary">
+                        ankit@ezraconsultancy.in
                       </a>
                     </p>
                   </div>
@@ -121,7 +121,7 @@ const ContactPage = () => {
         <div className="container mx-auto px-4">
           <div className="overflow-hidden rounded-lg shadow-md">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.220415660563!2d77.4635149752818!3d28.442771275768827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc30041f23059%3A0xa314e0ff60f7ee79!2sN19%20Sector%20151%20Noida!5e0!3m2!1sen!2sin!4v1747636234248!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.532606539283!2d77.2413146!3d28.5837947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce368e659edcb%3A0x62f3bae256f1ecc0!2sOffice%20K%2033%20Jangpura!5e0!3m2!1sen!2sin!4v1747923894100!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -130,6 +130,7 @@ const ContactPage = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
+
         </div>
       </section>
 
